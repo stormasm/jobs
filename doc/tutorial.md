@@ -1,4 +1,4 @@
-#Jobs: A Marionette Tutorial
+# Jobs: A Marionette Tutorial
 
 Jobs is a tutorial about Derick Bailey's amazing [Marionette](https://github.com/derickbailey/backbone.marionette) framework which sits on top of [Backbone](http://documentcloud.github.com/backbone/).  The goal of the tutorial is to show how Marionette works through a simple application that displays information located in a [JSON](http://www.json.org/) file.  
 
@@ -17,7 +17,7 @@ Backbone.Marionette.TemplateCache.prototype.compileTemplate = function(template)
 }
 ```
 
-###CSS
+### CSS
 
 There are 3 css files located in the directory public/css.
 
@@ -45,7 +45,7 @@ Once this is running, go to <http://localhost:3000/>.
 
 The port number of 3000 is what I use but you can pick any one you want.
 
-###The Data Model
+### The Data Model
 
 ```js
 data:[{
@@ -62,7 +62,7 @@ The data model is intentionally simple because the idea down the road is to use 
 
 You will note that there is one other field called the **options** field. In the future, this field will be the one to change for other types of data domains.
 
-###The Html file
+### The Html file
 
 In backbone templates are mission critical to the application.  The reason being that it is a combination of your data in the model and the structure of your content on the page that gets melded together to form the final piece of HTML that the browser displays.
 
@@ -76,7 +76,7 @@ The three key lines of code in the HTML file are:
 </div>
 ```
 
-###The Templates
+### The Templates
 
 The MenuHeader Template and the PageTop Template
 
@@ -94,7 +94,7 @@ This template only has one parameter in it which is the MenuHeader.  Examples of
 
 If you look at the code you will see that these menu headers get set in the constructor of the Backbone.Model called PageTopModel.
 
-###The JSON Data Model
+### The JSON Data Model
 
 The JSON data files are in the directory public/data.
 
@@ -194,7 +194,7 @@ It is the collection returned from these functions represented by the **var subs
 
 If you have made it this far in the tutorial you are almost done !
 
-###The Two Core Models
+### The Two Core Models
 
 To keep this application simple we are only using two core models and one experimental model in the "Experimental" section of the application called MiniLayout.
 
